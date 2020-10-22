@@ -1,10 +1,11 @@
 {
   "name": "vanila-nodejs-rest-api",
   "version": "1.0.0",
-  "description": "A vanila node.js REST API with full CRUD operations using a JSON file as data storage ( I'm not using any database in this project ). There is no package.json in this ",
+  "description": "A vanila node.js REST API with full CRUD operations using a JSON file as data storage ( There is no external database ). There is no express.js, neither any other framework, just good old node.js. The Object with this project is to learn how node.js works behind the scene.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Renato Lima Santos",
   "license": "ISC",
