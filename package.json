@@ -1,0 +1,14 @@
+{
+  "name": "vanila-nodejs-rest-api",
+  "version": "1.0.0",
+  "description": "A vanila node.js REST API with full CRUD operations using a JSON file as data storage ( I'm not using any database in this project ). There is no package.json in this ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renato Lima Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
