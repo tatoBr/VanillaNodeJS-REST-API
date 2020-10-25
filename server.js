@@ -1,5 +1,6 @@
-const http = require( 'http' ); 
-const PORT = process.env.PORT || 8888;
+const http = require( 'http' );
+const { PORT } = require( './misc/variables' ); 
+
 
 const { HTTP_STATUS_CODE_LIST, PATH } = require( "./misc/variables" );
 

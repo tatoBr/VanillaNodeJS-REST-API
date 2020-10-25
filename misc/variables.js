@@ -1,4 +1,5 @@
 module.exports = {
+    PORT: process.env.PORT || 8888,
     HTTP_STATUS_CODE_LIST: {
         "OK": {
             codeNumber: 200,
